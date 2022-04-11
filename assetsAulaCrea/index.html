@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula Crea</title>
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- style.css -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: #fcada9"
+    >
+      <div class="container">
+        <a class="navbar-brand titulo-nav" href="#">AulaCrea</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link text-black nav-texto" href="#">Inicio</a>
+            <a class="nav-link text-black nav-texto" href="#">Tienda</a>
+            <a class="nav-link text-black nav-texto" href="#">Sobre Mi</a>
+            <a class="nav-link text-black nav-texto" href="#">Blog</a>
+            <a class="nav-link text-black nav-texto" href="#">Ingresar </a>
+            <a class="nav-link text-black" href="#"
+              ><img
+                src="../assets/img/carrito-de-compras.png"
+                alt="carrito"
+                class="px-1"
+              />
+            </a>
+          </div>
+          <!-- <i class="fa-solid fa-cart-shopping fa-2x px-2"></i> -->
+        </div>
+      </div>
+    </nav>
+
+    <section class="container">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <img
+            class="img-fluid"
+            src="../assets/img/aulacreaMain.jpg"
+            alt="moin"
+          />
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="my-5">
+            <h1 class="text-center">Bienvenid@s!</h1>
+            <p class="parrafo-header text-center py-5">
+              ¡Hola! Bienvenid@s a mi sitio web. Mi nombre es Pamela, soy
+              profesora de educación básica con mención en Lenguaje y Ciencias.
+              Trabajo hace cuatro años en una escuela pública de mujeres. Mis
+              estudiantes de primero básico fueron mi gran motivación para
+              construir lo que hoy es
+              <strong class="aulacrea">AulaCrea</strong>. También, sentí las
+              ganas de compartir mi trabajo con otr@s profes para apoyarnos y
+              hacer comunidad docente, ya que sé el tiempo que toma preparar una
+              clase y que muchas veces necesitamos nuevas ideas y estrategias.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- corrusel -->
+    <section class="container d-none d-sm-none d-md-block">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <!-- botones inferiores -->
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+        </div>
+        <!-- sliders -->
+        <div class="carousel-inner">
+          <!-- sliders grupo 1  -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea1.jpg"
+                  class="d-block w-100"
+                  alt="slider-1"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea2.jpg"
+                  class="d-block w-100"
+                  alt="slider-2"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea3.jpg"
+                  class="d-block w-100"
+                  alt="slider-3"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea4.jpg"
+                  class="d-block w-100"
+                  alt="slider-4"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- sliders grupo 2  -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea5.jpg"
+                  class="d-block w-100"
+                  alt="slider-5"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea6.jpg"
+                  class="d-block w-100"
+                  alt="slider-6"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea7.jpg"
+                  class="d-block w-100"
+                  alt="slider-7"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/img/aulacrea8.jpg"
+                  class="d-block w-100"
+                  alt="slider-8"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- webinars -->
+
+    <section class="container pt-5 mt-5" style="background-color: #fcada9">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <div class="my-5">
+            <h1 class="text-center">Webinars</h1>
+            <p class="parrafo-header text-center pt-5">
+              ¡Hola! Bienvenid@s a mi sitio web. Mi nombre es Pamela, soy
+              profesora de educación básica con mención en Lenguaje y Ciencias.
+              Trabajo hace cuatro años en una escuela pública de mujeres. Mis
+              estudiantes de primero básico fueron mi gran motivación para
+              construir lo que hoy es
+              <strong class="aulacrea">AulaCrea</strong>. También, sentí las
+              ganas de compartir mi trabajo con otr@s profes para apoyarnos y
+              hacer comunidad docente, ya que sé el tiempo que toma preparar una
+              clase y que muchas veces necesitamos nuevas ideas y estrategias.
+            </p>
+            <div class="text-center">
+              <button
+                type="button"
+                class="boton btn btn-outline-dark btn-lg"
+                data-bs-toggle="tooltip"
+                data-bs-placement="bottom"
+                title="Presiona para inscribirte"
+              >
+                Inscribete
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <img
+            class="img-fluid"
+            src="../assets/img/webinar.png"
+            alt="webinar"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- productos -->
+    <section class="container-fluid p-5">
+      <h1 class="display-1 text-center mt-5 p-5 fw-bold text-black">
+        Productos Destacados
+      </h1>
+      <div class="row mx-auto">
+        <!-- carta 1-->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+          <div class="card mx-2 my-5">
+            <img
+              src="../assets/img/producto1.png"
+              class="card-img-top"
+              alt="colaciones"
+            />
+            <div class="card-body">
+              <div class="container py-3">
+                <h5 class="card-title">
+                  Mis metas de lectura 1ro y 2do básico
+                </h5>
+              </div>
+
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium, suscipit voluptates iure autem inventore corporis
+                architecto nesciunt dolore vitae excepturi cum placeat quasi aut
+                pariatur quas eveniet rerum aperiam rem.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Todos los Detalles</a>
+              <a href="#" class="card-link">Comprar</a>
+              <a href="#" class="card-link">Agregar al</a>
+            </div>
+          </div>
+        </div>
+        <!-- carta 2  -->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+          <div class="card mx-2 my-5">
+            <img
+              src="../assets/img/producto2.png"
+              class="card-img-top"
+              alt="desayunos"
+            />
+            <div class="card-body">
+              <div class="container py-3">
+                <h5 class="card-title">Detective de números-hasta 40-</h5>
+              </div>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Accusantium, suscipit voluptates iure autem inventore corporis
+                architecto nesciunt dolore vitae excepturi cum placeat quasi aut
+                pariatur quas eveniet rerum aperiam rem.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Todos los Detalles</a>
+              <a href="#" class="card-link">Comprar</a>
+              <a href="#" class="card-link">Agregar al</a>
+            </div>
+          </div>
+        </div>
+        <!-- carta 3 -->
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+          <div class="card mx-2 my-5">
+            <img
+              src="../assets/img/producto3.png"
+              class="card-img-top"
+              alt="bebidas"
+            />
+            <div class="card-body">
+              <div class="container py-3">
+                <h5 class="card-title">
+                  Actividades con el libro "Di algo" de Peter H. Reynolds
+                </h5>
+              </div>
+              <p class="card-text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla
+                quisquam facere perferendis beatae, maiores minima repellendus
+                ut. Hic suscipit facilis eos accusantium, quia velit sint in
+                facere pariatur quaerat labore.
+              </p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">An item</li>
+              <li class="list-group-item">A second item</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Todos los detalles</a>
+              <a href="#" class="card-link">Comprar</a>
+              <a href="#" class="card-link">Agregar al</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- blog -->
+    <section class="container" style="background-color: #fcada9">
+      <h1 class="display-1 text-center pb-5 fw-bold text-black">Blog</h1>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <img class="img-fluid" src="../assets/img/blog1.png" alt="blog" />
+          <h3 class="subtitulo-blog pt-4">
+            Hoy te recomiendo ¿Problemas de escritura?
+          </h3>
+          <p class="texto-blog pt-3 text-black">
+            Hoy quiero recomendarles un libro pedagógico sobre didáctica de la
+            escritura que desde mi perspectiva revoluciona las formas
+            tradicionales de enseñanza:“¿Problemas de escritura? experiencias de
+            escritura de profesoras en torno...
+          </p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
+          <img class="img-fluid" src="../assets/img/blog2.png" alt="blog" />
+          <h3 class="subtitulo-blog pt-4">
+            Boom Cards learning: ¿qué son y cómo usarlas?
+          </h3>
+          <p class="texto-blog pt-3 text-black">
+            Boom Cards Learning es una plataforma digital que encuentras en
+            www.boomlearning.com/ mediante la cual puedes crear u obtener las
+            boom cards, que son tarjetas interactivas autoverificables, es
+            decir, los y las estudiantes ¡pueden verificar su respuesta en forma
+            inmediata!
+          </p>
+        </div>
+      </div>
+      <div class="text-center py-4">
+        <button type="button" class="btn btn-dark btn-lg">Ver todo</button>
+      </div>
+    </section>
+
+    <!-- comunidad -->
+    <section class="container py-5">
+      <div class="row">
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 bg-izq p-5"
+        >
+          <h3>Unete a la comunidad</h3>
+          <p class="texto-redes">
+            Promociones, nuevos productos y ventas. Directamente a tu bandeja de
+            entrada.
+          </p>
+          <h3>Sigueme en Instagram</h3>
+          <div>
+            <p class="texto-redes">
+              <i class="fa-brands fa-instagram fa-1x"></i> aula_crea
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 bg-der"
+        >
+          <form class="pt-3">
+            <div class="mb-3 text-center">
+              <label for="exampleInputEmail1" class="form-label"
+                >Suscribete con tu mail!</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleInputEmail1"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                No compartiremos tu mail con nadie.
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <button type="button" class="btn btn-dark">Suscribirse</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <footer class="py-5" style="background-color: #fcada9">
+      <h3 class="footer-text text-center fw-bold m-0">AULACREA</h3>
+      <p class="text-center">Todos los derechos reservados.</p>
+    </footer>
+    <!-- Jquery cdn -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootsrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <!-- js propio -->
+    <script src="../assets/js/script.js" type="text/javascript"></script>
+  </body>
+</html>
